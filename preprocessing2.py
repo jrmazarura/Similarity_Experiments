@@ -46,19 +46,6 @@ def remove_stop_words(text):
 
     return [word for word in text if word not in stop_words]
 
-  
-
-"""
-def stem_words(text):
-    stemmer = PorterStemmer()
-    try:
-        text = [stemmer.stem(word) for word in text]
-        text = [word for word in text if len(word) > 1]  # make sure we have no single letter words
-    except IndexError:  # the word "oed" broke this, so needed to try except
-        pass
-    return text
-"""
-
 
 def clean(text):
         
