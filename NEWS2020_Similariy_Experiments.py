@@ -23,7 +23,7 @@ query_class=4 #science
 #select total corpus size to use
 total_docs=5000
 
-data = pd.read_csv(r'C:/Users/u10220420/Desktop/Jocelyn/Research/PoissonMixtureTM/Paper/Fresh experiments/GPM FN/data/labelled_newscatcher_dataset.csv')
+data = pd.read_csv('labelled_newscatcher_dataset.csv')
 
 
 #selected desired columns
