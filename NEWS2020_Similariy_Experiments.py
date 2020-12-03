@@ -130,7 +130,7 @@ def normalize_and_productoffactorials(N, corpus1):
 
 t1 = time.time()
 
-name='CORD-19'
+name='NEWS2020'
 N=20
 nTopics=10
 alpha=0.001
