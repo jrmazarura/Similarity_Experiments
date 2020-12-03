@@ -68,8 +68,8 @@ def corpus_stats(df, name):
     plt.show()
     
 def cut_docs(x,max_length):
-    return x
-    #return x[0:max_length]    
+    #return x
+    return x[0:max_length]    
     
 def remove_docs(df,min_length,max_length):
     #cut docs
