@@ -417,7 +417,7 @@ plt.axhline(threshold, c='green', linewidth=1.5)
 plt.ylabel('Relevance Index', fontsize='x-large')
 plt.xlabel('Document Number', fontsize='x-large')
 plt.title('GPM Similarity Test: Relevance Index ', fontsize='x-large')
-plt.savefig('PHD_GPM_RelIndexMeans.jpg', bbox_inches='tight')
+plt.savefig('GPM_RelIndexMeans.jpg', bbox_inches='tight')
 plt.show()
 
 print('* GPM Evaluation')
