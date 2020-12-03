@@ -293,7 +293,7 @@ plt.xlabel('Soft Cosine Similarity')
 fig.legend()
 plt.title('Semantic Similarity and Disimilarity Testing')
 plt.tight_layout()
-plt.savefig("PHD_w2v-application.jpg")
+plt.savefig("w2v-application.jpg")
 fig.legend()
 plt.show()
 
